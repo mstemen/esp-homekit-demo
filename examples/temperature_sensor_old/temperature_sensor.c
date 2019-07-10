@@ -111,9 +111,7 @@ void user_init(void) {
 
         name.value = HOMEKIT_STRING(name_value);
 
-
     wifi_init();
     temperature_sensor_init();
     homekit_server_init(&config);
 }
-
